@@ -1,0 +1,36 @@
+import { tmdbFetch } from "@/src/shared/lib/tmdbFetch"
+import { MultiSearchDto } from "@/src/shared/types/multi"
+import { getLocale } from "next-intl/server"
+import { NextRequest, NextResponse } from "next/server"
+
+export const GET = async (request: NextRequest) => {
+	const query = request.nextUrl.searchParams.get("query") || ""
+
+	try {
+		const locale = await getLocale()
+		const language = locale === "en" ? "en-US" : "ru-RU"
+
+		const res = await tmdbFetch<MultiSearchDto>(`search/multi?query=${query}`, {
+			signal: request.signal,
+			params: {
+				language,
+			},
+		})
+
+		return NextResponse.json(res)
+	} catch (err) {
+		console.error(`Error fetching search:`, err)
+
+		if (err instanceof Error) {
+			const match = err.message.match(/(\d{3})/)
+			const status = match ? parseInt(match[1]) : 500
+
+			return NextResponse.json({ error: err.message }, { status })
+		}
+
+		return NextResponse.json(
+			{ error: "Internal Server Error" },
+			{ status: 500 }
+		)
+	}
+}

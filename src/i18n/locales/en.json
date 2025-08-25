@@ -1,0 +1,271 @@
+{
+	"Metadata": {
+		"description": "Cineory – is a web app for watching movies and TV series. Add to your collection and rate."
+	},
+	"Header": {
+		"NavLink": {
+			"home": "Home",
+			"movie": "Movie",
+			"series": "Series"
+		},
+		"menu": "Profile menu",
+		"login": "Sign In",
+		"register": "Sign Up",
+		"profile": "My Profile",
+		"settings": "Settings",
+		"logout": "Logout",
+		"Search": {
+			"movie": "Movies",
+			"tv": "TV Series",
+			"person": "People",
+			"load": "Loading..."
+		}
+	},
+	"Footer": {
+		"description": "Online library of movies and TV series",
+		"license": "This product uses the TMDB API but is not endorsed or certified by TMDB"
+	},
+	"Toast": {
+		"error": "No internet connection",
+		"successLogin": "You have successfully logged in to your account",
+		"successRegister": "You have successfully registered",
+		"userNotFound": "The user was not found",
+		"dataUpdated": "Data updated",
+		"avatarUpdated": "The avatar has been changed",
+		"successLogout": "You have successfully logged out of your account",
+		"errorLogout": "Error logging out of account",
+		"accountDelete": "Account deleted",
+		"infoUpdated": "Information changed"
+	},
+	"HomePage": {
+		"mainButton": "More details",
+		"upcomingMovies": "New films",
+		"person": "Popular people",
+		"popularSeries": "Popular TV series",
+		"bestMovie": "Top Rated Movies",
+		"bestSeries": "Top Rated TV Series",
+		"popularity": "Popularity"
+	},
+	"MediaPage": {
+		"error": {
+			"movie": "The movie was not found",
+			"series": "The series was not found",
+			"general": "or problems with tmdb"
+		},
+		"trailer": "There is no trailer",
+		"mainCast": {
+			"label": "Starring",
+			"actors": "actors"
+		},
+		"description": {
+			"descr": "Description",
+			"none": "There is no description"
+		},
+		"details": {
+			"year": "Year",
+			"country": "Country",
+			"genres": "Genre",
+			"slogan": "The slogan",
+			"director": "Director",
+			"writer": "Writer",
+			"budget": "Budget",
+			"fees": "Fees",
+			"duration": "Duration",
+			"website": "Website",
+			"status": "Status"
+		},
+		"series": {
+			"seasons": "Seasons",
+			"episodes": "episodes"
+		},
+		"recommended": "Recommended",
+		"mediaAllCast": {
+			"actors": "Actors",
+			"directors": "Directors",
+			"writers": "Writers",
+			"producers": "Producers",
+			"editing": "Editors",
+			"camera": "Operators",
+			"other": "Others",
+			"noData": "No data",
+			"back": "To main information"
+		}
+	},
+	"PersonPage": {
+		"error": "Person not found or problems with tmdb server",
+		"movies": "Popular movies",
+		"series": "Popular series",
+		"biography": "Biography",
+		"filmography": "Filmography",
+		"showFull": "Show full",
+		"showAll": "Show all",
+		"hide": "Hide",
+		"photo": "Photo",
+		"rating": "Rating by year",
+		"formatRating": "Rating",
+		"formatVotes": "Votes",
+		"year": "Year",
+		"cast": "Actor",
+		"director": "Director",
+		"writer": "Writer",
+		"producer": "Producer",
+		"noData": "No data",
+		"personDetails": {
+			"about": "About the person",
+			"career": "Career:",
+			"birthday": "Date of birth:",
+			"deathday": "Date of death",
+			"place": "Place of birth:",
+			"sex": "Gender:",
+			"popular": "Popularity:",
+			"trap": "Trap",
+			"female": "Female",
+			"male": "Male"
+		}
+	},
+	"MediaCategories": {
+		"watching": "Watching",
+		"planned": "Planned",
+		"abandoned": "Abandoned",
+		"completed": "Completed",
+		"favorites": "Favorites",
+		"postponed": "Postponed",
+		"unknown": "Unknown",
+		"add": "Add to list",
+		"delete": "Remove from the list"
+	},
+	"MediaRating": {
+		"rate": "Rate",
+		"add": "Add to list first!",
+		"title": "Media rating",
+		"back": "Cancel",
+		"delete": "Delete",
+		"change": "Change"
+	},
+	"Auth": {
+		"signin": "Sign In",
+		"signup": "Sign Up",
+		"username": "Username",
+		"password": "Password",
+		"repeatPassword": "Repeat Password",
+		"btnIn": "Sign In",
+		"btnUp": "Sign Up",
+		"descrIn": "Don’t have an account?",
+		"descrInLink": "Sign Up",
+		"descrUp": "Already have an account?",
+		"descrUpLink": "Sign In"
+	},
+	"Catalog": {
+		"title": "Catalog",
+		"description": "Find movies and TV series by genre, rating and year of release.",
+		"movie": "Movie",
+		"tv": "TV Series",
+		"search": "Search",
+		"nothing": "Nothing found",
+		"sort": {
+			"sorting": "Sort",
+			"sortBy": "Sort by",
+			"notWork": "Sorting with search does not work!",
+			"popular": "Popular",
+			"rating": "Rating",
+			"date": "By date",
+			"new_first": "(new first)",
+			"old_first": "(old first)",
+			"votes": "Vote count"
+		},
+		"filter": {
+			"includeGenres": "Genres",
+			"excludeGenres": "Exclude genres",
+			"includeAdult": "Include adult content",
+			"year": "Release year (from - to)",
+			"rating": "Rating (from - to)",
+			"reset": "Reset",
+			"apply": "Apply"
+		}
+	},
+	"Profile": {
+		"notFound": "User not found",
+		"settings": "Settings",
+		"lists": "Lists",
+		"all": "All",
+		"view": "View",
+		"tile": "Tile",
+		"list": "List",
+		"sort": "Sorting",
+		"byName": "By name",
+		"byDate": "By date added",
+		"asc": "Ascending",
+		"desc": "Descending",
+		"noMedia": "There are no media in this list yet",
+		"movie": "Movie",
+		"tv": "TV Series",
+		"added": "Added"
+	},
+	"Settings": {
+		"avatar": {
+			"avatarErr": "Invalid image format, please provide image url",
+			"avatarChange": "Change Avatar",
+			"avatarPlaceholder": "Insert image link",
+			"avatarSaving": "Saving...",
+			"avatarSave": "Save"
+		},
+		"delete": {
+			"deleteConfirm": "Enter your password to confirm account deletion",
+			"deletePass": "Password",
+			"deletingBtn": "Deleting...",
+			"deleteBtn": "Delete",
+			"deleteCancel": "Cancel",
+			"deletingAccount": "Deleting an account",
+			"deleteAccount": "Delete an account"
+		},
+		"info": {
+			"info": "Information",
+			"genderPlaceholder": "Choose a gender",
+			"username": "Username",
+			"sex": "Gender",
+			"other": "Other",
+			"male": "Male",
+			"female": "Female",
+			"about": "About me",
+			"aboutPlaceholder": "Write a little bit about yourself...",
+			"update": "Update"
+		},
+		"change": {
+			"update": "Update",
+			"updating": "Updating...",
+			"email": "Change Email",
+			"emailInput": "Change your email address",
+			"password": "Change the password",
+			"oldPassword": "Old Password",
+			"newPassword": "New Password",
+			"confirmPassword": "Confirm Password"
+		}
+	},
+	"Alert": {
+		"noUser": "This user does not exist",
+		"successDelete": "Successfully deleted",
+		"errorDelete": "Error during deletion"
+	},
+	"Validation": {
+		"invalidEmail": "Invalid email",
+		"required": "This field is required",
+		"minName": "Name must be at least {count} characters long",
+		"minPassword": "Password must be at least {count} characters long",
+		"passwordMismatch": "Passwords do not match"
+	},
+	"Errors": {
+		"unknown": "Unknown error",
+		"auth": {
+			"emailAlreadyInUse": "This email is already registered",
+			"invalidEmail": "Invalid email format",
+			"userNotFound": "User not found",
+			"missingPassword": "Enter password",
+			"operationNotAllowed": "Operation not allowed",
+			"invalidCredential": "Invalid credentials",
+			"invalidVerificationCode": "Invalid verification code",
+			"invalidVerificationId": "Invalid verification ID",
+			"missingVerificationId": "Missing verification ID",
+			"invalidUserToken": "Invalid user token"
+		}
+	}
+}

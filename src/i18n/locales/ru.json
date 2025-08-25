@@ -1,0 +1,274 @@
+{
+	"Metadata": {
+		"description": "Cineory – веб‑приложение для поиска фильмов и сериалов. Добавляйте в коллекции и оценивайте."
+	},
+	"Header": {
+		"NavLink": {
+			"home": "Главная",
+			"movie": "Фильмы",
+			"series": "Сериалы"
+		},
+		"menu": "Меню профиля",
+		"login": "Войти",
+		"register": "Регистрация",
+		"profile": "Мой профиль",
+		"settings": "Настройки",
+		"logout": "Выход",
+
+		"Search": {
+			"movie": "Фильмы",
+			"tv": "Сериалы",
+			"person": "Люди",
+			"load": "Загрузка..."
+		}
+	},
+	"Footer": {
+		"description": "Онлайн библиотека фильмов и сериалов",
+		"license": "Этот продукт использует API TMDB, но не одобрен и не сертифицирован TMDB"
+	},
+	"Toast": {
+		"error": "Нет подключения к интернету",
+		"successLogin": "Вы успешно вошли в аккаунт",
+		"successRegister": "Вы успешно зарегистрировались",
+		"userNotFound": "Пользователь не найден",
+		"dataUpdated": "Данные обновлены",
+		"avatarUpdated": "Аватар изменен",
+		"successLogout": "Вы успешно вышли из аккаунта",
+		"errorLogout": "Ошибка выхода из аккаунта",
+		"accountDelete": "Аккаунт удален",
+		"infoUpdated": "Информация изменена"
+	},
+	"HomePage": {
+		"mainButton": "Подробнее",
+		"upcomingMovies": "Новые фильмы",
+		"person": "Популярные персоны",
+		"popularSeries": "Популярные сериалы",
+		"bestMovie": "Фильмы с самым высоким рейтингом",
+		"bestSeries": "Сериалы с самым высоким рейтингом",
+		"popularity": "Популярность"
+	},
+	"MediaPage": {
+		"error": {
+			"movie": "Фильм не найден",
+			"series": "Сериал не найден",
+			"general": "или проблемы с tmdb"
+		},
+		"trailer": "Нет трейлера",
+
+		"mainCast": {
+			"label": "В главных ролях",
+			"actors": "актеров"
+		},
+		"description": {
+			"descr": "Описание",
+			"none": "Описание отсутствует"
+		},
+		"details": {
+			"year": "Год",
+			"country": "Страна",
+			"genres": "Жанр",
+			"slogan": "Лозунг",
+			"director": "Директор",
+			"writer": "Сценарий",
+			"budget": "Бюджет",
+			"fees": "Сборы",
+			"duration": "Длительность",
+			"website": "Вебсайт",
+			"status": "Статус"
+		},
+		"series": {
+			"seasons": "Сезоны",
+			"episodes": "эпизодов"
+		},
+		"recommended": "Рекомендованные",
+		"mediaAllCast": {
+			"actors": "Актеры",
+			"directors": "Режиссеры",
+			"writers": "Сценаристы",
+			"producers": "Продюсеры",
+			"editing": "Редакторы",
+			"camera": "Операторы",
+			"other": "Другие",
+			"noData": "Нет данных",
+			"back": "К основной информации"
+		}
+	},
+	"PersonPage": {
+		"error": "Персона не найдена или проблемы с сервером tmdb",
+		"movies": "Популярные фильмы",
+		"series": "Популярные сериалы",
+		"biography": "Биография",
+		"filmography": "Фильмография",
+		"showFull": "Показать полностью",
+		"showAll": "Показать все",
+		"hide": "Скрыть",
+		"photo": "Фото",
+		"rating": "Рейтинг по годам",
+		"formatRating": "Рейтинг",
+		"formatVotes": "Оценок",
+		"year": "Год",
+		"cast": "Актер",
+		"director": "Режиссер",
+		"writer": "Сценарист",
+		"producer": "Продюсер",
+		"noData": "Нет данных",
+		"personDetails": {
+			"about": "О персоне",
+			"career": "Карьера:",
+			"birthday": "Дата рождения:",
+			"deathday": "Дата смерти:",
+			"place": "Место рождения:",
+			"sex": "Пол:",
+			"popular": "Популярность:",
+			"trap": "Трап",
+			"female": "Женщина",
+			"male": "Мужчина"
+		}
+	},
+	"MediaCategories": {
+		"watching": "Смотрю",
+		"planned": "В планах",
+		"abandoned": "Брошено",
+		"completed": "Просмотрено",
+		"favorites": "Любимые",
+		"postponed": "Отложено",
+		"unknown": "Неизвестно",
+		"add": "Добавить в список",
+		"delete": "Удалить из списка"
+	},
+	"MediaRating": {
+		"rate": "Оценить",
+		"add": "Сначала добавьте в список!",
+		"title": "Оценка тайтла",
+		"back": "Отмена",
+		"delete": "Удалить",
+		"change": "Изменить"
+	},
+	"Auth": {
+		"signin": "Вход",
+		"signup": "Регистрация",
+		"username": "Имя пользователя",
+		"password": "Пароль",
+		"repeatPassword": "Повторите пароль",
+		"btnIn": "Войти",
+		"btnUp": "Зарегистрироваться",
+		"descrIn": "Нет аккаунта?",
+		"descrInLink": "Зарегистрируйтесь",
+		"descrUp": "Уже есть аккаунт?",
+		"descrUpLink": "Войдите"
+	},
+	"Catalog": {
+		"title": "Catalog",
+		"description": "Browse TV shows and Movies by genre, rating, and air date.",
+		"movie": "Фильмы",
+		"tv": "Сериалы",
+		"search": "Поиск",
+		"nothing": "Ничего не найдено",
+		"sort": {
+			"sorting": "Сортировка",
+			"sortBy": "Сортировать по",
+			"notWork": "Сортировка с поиском не работает!",
+			"popular": "Популярные",
+			"rating": "Рейтинг",
+			"date": "По дате",
+			"new_first": "(сначала новые)",
+			"old_first": "(сначала старые)",
+			"votes": "Количество голосов"
+		},
+		"filter": {
+			"includeGenres": "Жанры",
+			"excludeGenres": "Исключить жанры",
+			"includeAdult": "Включить 18+",
+			"year": "Год выпуска (от - до)",
+			"rating": "Рейтинг (от - до)",
+			"reset": "Сбросить",
+			"apply": "Применить"
+		}
+	},
+
+	"Profile": {
+		"notFound": "Пользователь не найден",
+		"settings": "Настройки",
+		"lists": "Списки",
+		"all": "Все",
+		"view": "Вид",
+		"tile": "Плитка",
+		"list": "Список",
+		"sort": "Сортировка",
+		"byName": "По названию",
+		"byDate": "По дате добавления",
+		"asc": "По возрастанию",
+		"desc": "По убыванию",
+		"noMedia": "В этом списке пока нет медиа",
+		"movie": "Фильм",
+		"tv": "Сериал",
+		"added": "Добавлено"
+	},
+	"Settings": {
+		"avatar": {
+			"avatarErr": "Недопустимый формат изображения, укажите URL картинки",
+			"avatarChange": "Изменить аватар",
+			"avatarPlaceholder": "Вставьте ссылку на изображение",
+			"avatarSaving": "Сохранение...",
+			"avatarSave": "Сохранить"
+		},
+		"delete": {
+			"deleteConfirm": "Введите пароль для подтверждения удаления аккаунта",
+			"deletePass": "Пароль",
+			"deletingBtn": "Удаление...",
+			"deleteBtn": "Удалить",
+			"deleteCancel": "Отмена",
+			"deletingAccount": "Удаление аккаунта",
+			"deleteAccount": "Удалить аккаунт"
+		},
+		"info": {
+			"info": "Информация",
+			"genderPlaceholder": "Выберите пол",
+			"username": "Имя пользователя",
+			"sex": "Пол",
+			"other": "Другой",
+			"male": "Мужской",
+			"female": "Женский",
+			"about": "О себе",
+			"aboutPlaceholder": "Напишите немного о себе...",
+			"update": "Обновить"
+		},
+		"change": {
+			"update": "Обновить",
+			"updating": "Обновление...",
+			"email": "Изменить email",
+			"emailInput": "Изменить адрес электронной почты",
+			"password": "Изменить пароль",
+			"oldPassword": "Старый пароль",
+			"newPassword": "Новый пароль",
+			"confirmPassword": "Подтвердите пароль"
+		}
+	},
+	"Alert": {
+		"noUser": "Такого пользователя не существует",
+		"successDelete": "Успешно удалено",
+		"errorDelete": "Ошибка при удалении"
+	},
+	"Validation": {
+		"invalidEmail": "Некорректный email",
+		"required": "Поле обязательно",
+		"minName": "Имя должно быть не менее {count} символов",
+		"minPassword": "Пароль должен быть не менее {count} символов",
+		"passwordMismatch": "Пароли не совпадают"
+	},
+	"Errors": {
+		"unknown": "Неизвестная ошибка",
+		"auth": {
+			"emailAlreadyInUse": "Эта почта уже зарегистрирована",
+			"invalidEmail": "Неверный формат email",
+			"userNotFound": "Пользователь не найден",
+			"missingPassword": "Введите пароль",
+			"operationNotAllowed": "Операция не разрешена",
+			"invalidCredential": "Неверные учетные данные",
+			"invalidVerificationCode": "Неверный код подтверждения",
+			"invalidVerificationId": "Неверный идентификатор подтверждения",
+			"missingVerificationId": "Отсутствует идентификатор подтверждения",
+			"invalidUserToken": "Неверный токен пользователя"
+		}
+	}
+}
