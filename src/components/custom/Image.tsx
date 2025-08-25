@@ -7,7 +7,7 @@ import { useEffect, useState } from "react"
 type ImageWithFallbackProps = Partial<ImageProps> & {
 	fallback: string
 	alt: string
-	className: string
+	className?: string
 }
 
 export const Image = ({
