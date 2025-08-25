@@ -1,16 +1,19 @@
 "use client"
 
+import { cn } from "@/src/shared/lib/utils"
 import ImageNext, { ImageProps } from "next/image"
 import { useEffect, useState } from "react"
 
 type ImageWithFallbackProps = Partial<ImageProps> & {
 	fallback: string
 	alt: string
+	className: string
 }
 
 export const Image = ({
 	fallback,
 	src,
+	className,
 	fill = true,
 	...rest
 }: ImageWithFallbackProps) => {
@@ -27,6 +30,7 @@ export const Image = ({
 			{...rest}
 			src={imgSrc}
 			fill={fill}
+			className={cn("transform-gpu will-change-transform", className)}
 			onError={() => {
 				if (imgSrc !== fallback) setImgSrc(fallback)
 			}}
