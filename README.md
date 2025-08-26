@@ -39,7 +39,7 @@ A modern, high-performance movie database website built with Next.js, featuring 
 - **React Hook Form** + **Zod** — Forms and validation
 - **Firebase** — Authorization and database
 - **TMDB API** — Data API
-- **Rechartso** — Charts and statistics
+- **Recharts** — Charts and statistics
 - **Internationalization** — next-intl
 
 ---
@@ -50,6 +50,11 @@ A modern, high-performance movie database website built with Next.js, featuring 
 - Catalog with filtering and infinite scrolling
 - Profile with folders and user ratings
 - Full adaptation for all devices
+
+---
+### Notes
+
+I've reached the Image Optimization limit in vercel so images may take too long to load, but in a real app everything should be perfect.
 
 ---
 
